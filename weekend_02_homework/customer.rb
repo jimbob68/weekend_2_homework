@@ -21,6 +21,7 @@ class Customer
   #     return false
   #   end
   # end
+
   def can_add_customer_to_room
     return @customer
   end

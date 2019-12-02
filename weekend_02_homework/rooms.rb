@@ -1,13 +1,14 @@
 class Rooms
 
-attr_reader :customer, :rooms, :songs
+# attr_reader :customer, :room_name, :songs
 
-  def initialize(room_name)
+  def initialize(room_name, room_capacity, room_cost)
 
     # @room_name ="Rock Anthems"
     # @customer = customer
-    @room_name = room_name
-    # @room_is_full = 4
+    @room_name = rooms
+    @room_capacity = 4
+    @room_cost = 50
     # @song = song
     # @artist = artist
   end
